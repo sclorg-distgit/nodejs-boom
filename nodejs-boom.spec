@@ -4,7 +4,7 @@
 
 Name:       %{?scl_prefix}nodejs-boom
 Version:    0.4.2
-Release:    3%{?dist}
+Release:    4%{?dist}
 Summary:    HTTP friendly error objects
 License:    BSD
 Group:      Development/Libraries
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 %doc README.md LICENSE images
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.4.2-4
+- rebuilt
+
 * Thu Oct 17 2013 Tomas Hrcka <thrcka@redhat.com> - 0.4.2-3
 - replace provides and requires with macro
 
